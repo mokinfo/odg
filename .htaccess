@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /odg/
+
+RewriteRule ^Login$ login.php [L]
+RewriteRule ^Logout$ logout.php [L]
+RewriteRule ^Accueil$ accueil.php [L]
+RewriteRule ^Dashboard$ dashboard.php [L]
+RewriteRule ^Envoie$ envoie.php [L]
+RewriteRule ^Rapport$ rapport_affiche.php [L]
+RewriteRule ^Modifier$ modifier.php [L]
+RewriteRule ^Supprimer$ supprimer.php [L]
+RewriteRule ^Gestion$ liste_utilisateur.php [L]
+RewriteRule ^Ajout_utilisateur$ ajout_utilisateur.php [L]
+RewriteRule ^Modifier_utilisateur$ modifier_utilisateurs.php [L]
